@@ -1,5 +1,5 @@
 //Assignment Day2
-
+/*
 //Assignment 1
 const number = prompt("Enter your number: ");
 if (number >= 0) {
@@ -133,6 +133,21 @@ const result = countVowel(string);
 
 console.log(result);
 
+
+//Assignment 8
+const perfectnum = (num) =>{
+     let sum = 0;
+     for(let i=1; i<num; i++){
+        if(num%i == 0){
+             sum += i;
+        }
+    }
+    return sum == num? true:false
+}
+let result = perfectnum(28)
+console.log(result);
+
+
 //Assignment 9
 
 const number = parseInt(prompt('Enter the number of terms: '));
@@ -156,3 +171,4 @@ for(let i = 1; i <= 10; i++) {
 
     console.log(`${num} * ${i} = ${result}`);
 }
+*/
